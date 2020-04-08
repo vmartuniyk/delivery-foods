@@ -4,27 +4,155 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Delivery Food - Служба доставки їжі до будинку</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css.css">
     <link rel="stylesheet" href="css/app.css">
+
 </head>
 <body>
     <div class="container">
         <header class="header">
             <img src="img/logo.svg" alt="Logo" class="logo">
      
-            <input type="text" class="input search-input" placeholder="Адреса доставки">
+            <input type="text" class="input input-address" placeholder="Адреса доставки">
         
-        <div class="buttons">
-            <button class="button button-primary">
-                <img src="img/user.svg" alt="User" class="button-icon">
-                <span class="button-text">Ввійти</span>     
-            </button>
-            <button class="button">
-                <img src="img/shopping-cart.svg" alt="Shopping cart" class="button-icon" >
-                <span class="button-text">Кошик</span>
-            </button>
-        </div>
-    
-</header>
+            <div class="buttons">
+                <button class="button button-primary">
+                    <img src="img/user.svg" alt="User" class="button-icon">
+                    <span class="button-text">Ввійти</span>     
+                </button>
+                <button class="button">
+                    <img src="img/shopping-cart.svg" alt="Shopping cart" class="button-icon" >
+                    <span class="button-text">Кошик</span>
+                </button>
+            </div>
+            
+        </header>
+
+        <section class="promo">
+            <h1 class="promo__title">
+                Онлайн-сервіс <br> доставки їжі додому
+            </h1>
+            <div class="promo__text">
+                Страви з улюбленого ресторану привезе кур'єр в рукавичках, масці і з антисептиком
+            </div>
+        
+        </section>
+
+        <section class="restaurants">
+            <div class="section-heading">
+                <h2 class="section-title">
+                    Ресторани
+                </h2>
+                <input type="text" class="input input-search" placeholder="Пошук блюд та ресторанів">
+            </div>
+
+            <div class="cards">
+                <div class="card">
+                    <img src="/img/card-1.jpg" alt="Pizza" class="card-image">
+                    <div class="card-text">
+                        <div class="card-heading">
+                            <h3 class="card-title">Піцца Плюс</h3>
+                            <span class="card-tag tag">50 хв.</span>
+                        </div>
+                        <div class="card-info">
+                            <div class="rating">
+                                <img src="/img/rating.svg" alt="Rating">
+                                4.8</div>
+                            <div class="price">від 70 грн</div>
+                            <div class="category">Піцца</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.card -->
+                <div class="card">
+                    <img src="/img/card-2.jpg" alt="Pizza" class="card-image">
+                    <div class="card-text">
+                        <div class="card-heading">
+                            <h3 class="card-title">Санукі</h3>
+                            <span class="card-tag tag">30 хв.</span>
+                        </div>
+                        <div class="card-info">
+                            <div class="rating">
+                                <img src="/img/rating.svg" alt="Rating">
+                                4.6</div>
+                            <div class="price">від 170 грн</div>
+                            <div class="category">Суші</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.card -->
+                <div class="card">
+                    <img src="/img/card-3.jpg" alt="Pizza" class="card-image">
+                    <div class="card-text">
+                        <div class="card-heading">
+                            <h3 class="card-title">FoodBand</h3>
+                            <span class="card-tag tag">45 хв.</span>
+                        </div>
+                        <div class="card-info">
+                            <div class="rating">
+                                <img src="/img/rating.svg" alt="Rating">
+                                4.5</div>
+                            <div class="price">від 90 грн</div>
+                            <div class="category">Піцца</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.card -->
+                <div class="card">
+                    <img src="/img/card-4.jpg" alt="Pizza" class="card-image">
+                    <div class="card-text">
+                        <div class="card-heading">
+                            <h3 class="card-title">Суші Скрудж</h3>
+                            <span class="card-tag tag">34 хв.</span>
+                        </div>
+                        <div class="card-info">
+                            <div class="rating">
+                                <img src="/img/rating.svg" alt="Rating">
+                                4.1</div>
+                            <div class="price">від 110 грн</div>
+                            <div class="category">Суші</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.card -->
+                <div class="card">
+                    <img src="/img/card-5.jpg" alt="Pizza" class="card-image">
+                    <div class="card-text">
+                        <div class="card-heading">
+                            <h3 class="card-title">Точка Ї</h3>
+                            <span class="card-tag tag">69 хв.</span>
+                        </div>
+                        <div class="card-info">
+                            <div class="rating">
+                                <img src="/img/rating.svg" alt="Rating">
+                                4.3</div>
+                            <div class="price">від 69 грн</div>
+                            <div class="category">Суші</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.card -->
+                <div class="card">
+                    <img src="/img/card-6.jpg" alt="Pizza" class="card-image">
+                    <div class="card-text">
+                        <div class="card-heading">
+                            <h3 class="card-title">Піцца Люкс</h3>
+                            <span class="card-tag tag">39 хв.</span>
+                        </div>
+                        <div class="card-info">
+                            <div class="rating">
+                                <img src="/img/rating.svg" alt="Rating">
+                                4.3</div>
+                            <div class="price">від 67 грн</div>
+                            <div class="category">Піцца</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.card -->
+            </div>
+            <!-- /.cards -->
+        </section>
     </div>
 </body>
 </html>
